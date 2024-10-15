@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Palabras por Letra</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Clasificar Palabras por Letra Inicial</h1>
+
+    <div class="formulario">
+        <h2>Introduce una palabra</h2>
+        <input type="text" id="palabra" placeholder="Introduce una palabra">
+        <button onclick="agregarPalabra()">Agregar Palabra</button>
+    </div>
+
+    <div class="resultados">
+        <h2>Palabras Clasificadas</h2>
+        <div id="listasDePalabras"></div>
+    </div>
+
+    <script src="Nodo.js"></script>
+    <script src="ListaSimpleEnlazada.js"></script>
+    <script src="ManejadorListas.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
